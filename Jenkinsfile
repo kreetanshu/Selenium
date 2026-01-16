@@ -23,7 +23,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checking out branch: ${params.BRANCH_NAME}"
-                git branch: "${params.BRANCH_NAME}", url: 'https://github.com/user/repo.git'
+                git branch: "${params.BRANCH_NAME}", url: 'https://github.com/kreetanshu/Selenium.git'
             }
         }
 
